@@ -1,0 +1,25 @@
+// reset : 원하는 시점으로 돌아간 뒤 이후 내역들 삭제.
+// revert : 되돌리기 원하는 시점의 커밋을 거꾸로 실행
+
+git reset --soft [commit ID] 
+git reset --mixed [commit ID]
+git reset --hard [commit ID]
+
+// soft : commit된 파일들을 staging area로 돌려놓음. (commit 하기 전 상태로)
+// mixed(default) : commit된 파일들을 working directory로 돌려놓음. (add 하기 전 상태로)
+// hard : commit된 파일들 중 tracked 파일들을 working directory에서 삭제.
+
+
+git revert [commit id]
+
+// revert를 사용하면 중간에 무슨 문제가 있었는지, 왜 돌아갔는지 등의 기록이 가능하다는 장점.
+// 또한 다른 사람과 같은 브랜치에서 함께 작업할 때 코드 충돌을 최소화 가능
+
+
+
+// 종료 후, 계정 초기화
+// Git bash에서 아래 git명령어 입력: 설정정보 초기화
+
+git config --global --unset user.name
+git config --global --unset user.email
+git config --global --list 로 확인
