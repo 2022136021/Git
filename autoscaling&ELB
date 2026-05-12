@@ -2,7 +2,7 @@ Scaling(스케일링)이란?
 • 애플리케이션 또는 시스템의 성능을 높이기 위해 컴퓨팅리소스를 확장하거나 축소하는 것
 • 요청이 많아질 때 처리할 수 있도록 서버를 키우는 것!!!
 
-스케일업(Scale-Up, Vertical Scaling)
+스케일업(Scale-Up, Vertical Scaling) 
 • 서버 한대의 성능을 높이는방식
 스케일 업 (Scale-Up, Vertical Scaling)
 • 장점 : 단순하고 설정이 쉬움
