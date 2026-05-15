@@ -9,13 +9,10 @@ git reset --hard [commit ID]
 // mixed(default) : commit된 파일들을 working directory로 돌려놓음. (add 하기 전 상태로)
 // hard : commit된 파일들 중 tracked 파일들을 working directory에서 삭제.
 
-
 git revert [commit id]
 
 // revert를 사용하면 중간에 무슨 문제가 있었는지, 왜 돌아갔는지 등의 기록이 가능하다는 장점.
 // 또한 다른 사람과 같은 브랜치에서 함께 작업할 때 코드 충돌을 최소화 가능
-
-
 
 // 종료 후, 계정 초기화
 // Git bash에서 아래 git명령어 입력: 설정정보 초기화
